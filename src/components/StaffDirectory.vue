@@ -31,7 +31,7 @@
         data() {
             return {
                 filterBy: "",
-                sortBy: "firstName",  
+                sortBy: "lastName",  
                 employees: [
                         {
                             "firstName": "amelia",
@@ -302,6 +302,7 @@
                         }
                     ]
                 };
+
         },
         computed: {
             sortedEmployees() {
