@@ -1,16 +1,16 @@
 <template>
 <div>
-  <Root />
+  <StaffDirectory />
 </div>
 </template>
 
 <script>
-import Root from "./components/Root.vue";
+import StaffDirectory from "./components/StaffDirectory";
 
 export default {
   name: "App",
   components: {
-    Root,
+    StaffDirectory,
   },
 };
 </script>
