@@ -31,7 +31,7 @@
         data() {
             return {
                 filterBy: "",
-                sortBy: "lastName",  
+                sortBy: "department",  
                 employees: [
                         {
                             "firstName": "amelia",
