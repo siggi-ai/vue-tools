@@ -1,6 +1,7 @@
 <template>
         <div class="ui container">
-            <table class="table">  
+            <input v-model="filterBy" placeholder="Filter By Last Name">
+            <table class="ui celled table">  
                 <tr>
                     <th>Avatar</th>
                     <th @click="sortBy = 'firstName'">First Name</th>
@@ -315,5 +316,15 @@
 
 
 <style>
+    h1.ui.center.header {
+        margin-top: 3em;
+    }
 
+    .ui.table th:not(:first-child):hover {
+        cursor: pointer;
+    }
+
+    input {
+        padding: 3px;
+    }
 </style>
