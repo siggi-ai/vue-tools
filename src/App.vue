@@ -6,6 +6,7 @@
 </template>
 
 <script>
+import 'semantic-ui-css/semantic.css'
 import StaffDirectory from "./components/StaffDirectory";
 
 export default {
